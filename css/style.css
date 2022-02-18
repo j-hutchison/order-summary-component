@@ -1,0 +1,149 @@
+html {
+	font-size: 62.5%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	background-color: #dfe6fb;
+	color: #717fa6;
+	font-family: "Red Hat Display", sans-serif;
+	min-height: 100vh;
+}
+
+.container {
+	max-width: 45rem;
+	border-radius: 2rem;
+	overflow: hidden;
+	background-color: #ffffff;
+}
+
+.background-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.order-card-content {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	padding: 0 5.4rem 3rem;
+}
+
+.order-summary {
+	text-align: center;
+}
+
+.heading-primary {
+	text-align: center;
+	font-weight: 900;
+	font-size: 2.8rem;
+	line-height: 1.4;
+	letter-spacing: -1px;
+	padding: 4.5rem 0 1.5rem;
+	color: #1f2e55;
+}
+.main-paragraph-style {
+	display: block;
+	font-weight: 500;
+	font-size: 1.6rem;
+	line-height: 1.6;
+}
+.pricing-info {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 8rem;
+
+	padding: 2.5rem;
+}
+
+.plan-info {
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+}
+
+.icon {
+	width: 4.8rem;
+	height: 4.8rem;
+	opacity: 0.7;
+}
+.pricing-plan-description {
+	align-self: flex-start;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.heading-secondary {
+	color: #1f2e55;
+	font-size: 1.6rem;
+	font-weight: 900;
+}
+
+.edit-plan-link:link,
+.edit-plan-link:visited {
+	display: block;
+	justify-self: flex-end;
+	font-size: 1.4rem;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.edit-plan-link:hover,
+.edit-plan-link:active {
+	color: #766cf1;
+}
+
+.order-card-footer {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	padding-bottom: 3.2rem;
+}
+.btn {
+	font-size: 1.5rem;
+	font-weight: 900;
+	margin: 0 3.2rem;
+	padding: 1.5rem 10rem;
+	border: none;
+	border-radius: 1rem;
+	cursor: pointer;
+}
+.btn-blue {
+	background-color: #382ae1;
+	color: #fff;
+}
+
+.btn-blue:hover {
+	background-color: #766cf1;
+}
+
+.btn-clear {
+	background-color: #fff;
+	color: #717fa6;
+}
+
+.btn-clear:hover {
+	color: #1f2e55;
+}
+
+attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
