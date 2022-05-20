@@ -1,0 +1,166 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+  background-color: #dfe6fb;
+  min-height: 100vh;
+}
+
+body {
+  color: #717fa6;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.attribution {
+  font-size: 1.1rem;
+}
+
+.btn {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.heading-primary {
+  font-weight: 900;
+  font-size: 2.8rem;
+  line-height: 1.4;
+  letter-spacing: -1px;
+  padding: 4.5rem 0 1.5rem;
+  color: #1f2e55;
+}
+
+.heading-secondary {
+  color: #1f2e55;
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.flex-gap-lg {
+  gap: 8rem;
+}
+
+.flex-gap-md {
+  gap: 2rem !important;
+}
+
+.flex-gap-sm {
+  gap: 1.5rem !important;
+}
+
+.flex-gap-tiny {
+  gap: 0.5rem !important;
+}
+
+.flex-row {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.flex-col {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.btn {
+  margin: 0 3.2rem;
+  padding: 1.5rem 10rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-blue {
+  background-color: #382ae1;
+  box-shadow: 0 2rem 2rem rgba(56, 42, 225, 0.190291);
+  color: #fff;
+}
+.btn-blue:hover {
+  background-color: #766cf1;
+}
+.btn-clear {
+  background-color: transparent;
+  color: #717fa6;
+}
+.btn-clear:hover {
+  color: #1f2e55;
+}
+
+.card {
+  max-width: 45rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 4rem 4rem -2rem rgba(13, 48, 189, 0.151826);
+}
+.card__content {
+  padding: 0 5.4rem 3rem;
+}
+.card__order-summary {
+  text-align: center;
+}
+.card__footer {
+  padding-bottom: 3.2rem;
+}
+
+.cart {
+  justify-content: space-around;
+  align-items: center;
+  padding: 2.5rem;
+  background-color: #f7f9ff;
+  border-radius: 1.1rem;
+}
+.cart__item {
+  align-items: center;
+}
+.cart__icon {
+  width: 4.8rem;
+  height: 4.8rem;
+  opacity: 0.7;
+}
+.cart__item-detail {
+  align-self: flex-start;
+}
+.cart__btn-edit:link, .cart__btn-edit:visited {
+  display: block;
+  justify-self: flex-end;
+  font-size: 1.4rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.cart__btn-edit:hover, .cart__btn-edit:active {
+  color: #766cf1;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+.attribution a {
+  color: #766cf1;
+}
+
+.background__image {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}

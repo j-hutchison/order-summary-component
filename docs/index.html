@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+
+		<title>Frontend Mentor | Order summary card</title>
+	</head>
+	<body class="flex-col">
+		<div class="background">
+			<img
+				class="background__image"
+				src="./images/pattern-background-desktop.svg"
+				alt="Background image of a blue wave pattern"
+			/>
+		</div>
+		<div class="card">
+			<header class="card__banner">
+				<img
+					class="card__banner-image"
+					src="./images/illustration-hero.svg"
+					alt="Image of person dancing and enjoying music"
+				/>
+			</header>
+			<main class="card__content flex-col flex-gap-md">
+				<section class="card__order-summary">
+					<h1 class="heading-primary">Order Summary</h1>
+					<p class="text">
+						You can now listen to millions of songs, audiobooks, and podcasts on
+						any device anywhere you like!
+					</p>
+				</section>
+				<section class="cart flex-row flex-gap-lg">
+					<div class="cart__item flex-row flex-gap-md">
+						<img
+							class="cart__icon"
+							src="./images/icon-music.svg"
+							alt="Music note icon"
+						/>
+						<div class="cart__item-detail flex-col flex-gap-tiny">
+							<h2 class="cart__item-name heading-secondary">Annual Plan</h2>
+							<span class="cart__item-price text">$59.99/year</span>
+						</div>
+					</div>
+					<a class="cart__btn-edit" href="#">Change</a>
+				</section>
+			</main>
+			<footer class="card__footer flex-col flex-gap-sm">
+				<button class="btn btn-blue">Proceed to Payment</button>
+				<button class="btn btn-clear">Cancel Order</button>
+			</footer>
+		</div>
+		<div class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="#">J Hutchison</a>.
+		</div>
+	</body>
+</html>
