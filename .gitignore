@@ -14,5 +14,9 @@
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
+.vscode/
+order-summary-component-figma/
+_MACOSX
+
 node_modules/
 public/
