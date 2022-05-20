@@ -1,0 +1,26 @@
+.btn {
+	font-size: 1.5rem;
+	font-weight: 900;
+	margin: 0 3.2rem;
+	padding: 1.5rem 10rem;
+	border: none;
+	border-radius: 1rem;
+	cursor: pointer;
+}
+.btn-blue {
+	background-color: $color-blue-light;
+	color: #fff;
+}
+
+.btn-blue:hover {
+	background-color: $color-violet;
+}
+
+.btn-clear {
+	background-color: $color-white;
+	color: $color-violet-light;
+}
+
+.btn-clear:hover {
+	color: $color-blue-dark;
+}

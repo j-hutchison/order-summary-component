@@ -22,48 +22,49 @@
 		<title>Frontend Mentor | Order summary card</title>
 	</head>
 	<body>
-		<img
-			class="background-image"
-			src="./images/pattern-background-desktop.svg"
-			alt="Background image of a blue wave pattern"
-		/>
-		<div class="container">
-			<header class="order-card-header">
+		<div class="background">
+			<img
+				class="background__image"
+				src="./images/pattern-background-desktop.svg"
+				alt="Background image of a blue wave pattern"
+			/>
+		</div>
+		<div class="card">
+			<header class="card__banner">
 				<img
-					class="heading-image"
+					class="card__banner-image"
 					src="./images/illustration-hero.svg"
 					alt="Image of person dancing and enjoying music"
 				/>
 			</header>
-			<main class="order-card-content">
-				<section class="order-summary">
+			<main class="card__content">
+				<section class="card__order-summary">
 					<h1 class="heading-primary">Order Summary</h1>
-					<p class="main-paragraph-style">
+					<p class="text">
 						You can now listen to millions of songs, audiobooks, and podcasts on
 						any device anywhere you like!
 					</p>
 				</section>
-				<section class="pricing-info">
-					<div class="plan-info">
+				<section class="cart">
+					<div class="cart__item">
 						<img
-							class="icon"
+							class="cart__icon"
 							src="./images/icon-music.svg"
 							alt="Music note icon"
 						/>
-						<div class="pricing-plan-description">
-							<h2 class="heading-secondary">Annual Plan</h2>
-							<span class="main-paragraph-style">$59.99/year</span>
+						<div class="cart__item-detail">
+							<h2 class="cart__item-name heading-secondary">Annual Plan</h2>
+							<span class="cart__item-price text">$59.99/year</span>
 						</div>
 					</div>
-					<a class="edit-plan-link" href="#">Change</a>
+					<a class="cart__btn-edit" href="#">Change</a>
 				</section>
 			</main>
-			<footer class="order-card-footer">
+			<footer class="card__footer">
 				<button class="btn btn-blue">Proceed to Payment</button>
 				<button class="btn btn-clear">Cancel Order</button>
 			</footer>
 		</div>
-
 		<div class="attribution">
 			Challenge by
 			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
