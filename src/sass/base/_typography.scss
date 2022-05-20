@@ -3,10 +3,18 @@ body {
 	font-family: "Red Hat Display", sans-serif;
 }
 
-.heading-primary {
-	text-align: center;
+.attribution {
+	font-size: $font-size-sm;
+}
+
+.btn {
+	font-size: $btn-font-size;
 	font-weight: 900;
-	font-size: 2.8rem;
+}
+
+.heading-primary {
+	font-weight: 900;
+	font-size: $heading-1-font-size;
 	line-height: 1.4;
 	letter-spacing: -1px;
 	padding: 4.5rem 0 1.5rem;
@@ -15,12 +23,12 @@ body {
 
 .heading-secondary {
 	color: $color-blue-dark;
-	font-size: 1.6rem;
+	font-size: $heading-2-font-size;
 	font-weight: 900;
 }
 
 .text {
 	font-weight: 500;
-	font-size: 1.6rem;
+	font-size: $font-size-md;
 	line-height: 1.6;
 }

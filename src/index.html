@@ -21,7 +21,7 @@
 
 		<title>Frontend Mentor | Order summary card</title>
 	</head>
-	<body>
+	<body class="flex-col">
 		<div class="background">
 			<img
 				class="background__image"
@@ -37,7 +37,7 @@
 					alt="Image of person dancing and enjoying music"
 				/>
 			</header>
-			<main class="card__content">
+			<main class="card__content flex-col flex-gap-md">
 				<section class="card__order-summary">
 					<h1 class="heading-primary">Order Summary</h1>
 					<p class="text">
@@ -45,14 +45,14 @@
 						any device anywhere you like!
 					</p>
 				</section>
-				<section class="cart">
-					<div class="cart__item">
+				<section class="cart flex-row flex-gap-lg">
+					<div class="cart__item flex-row flex-gap-md">
 						<img
 							class="cart__icon"
 							src="./images/icon-music.svg"
 							alt="Music note icon"
 						/>
-						<div class="cart__item-detail">
+						<div class="cart__item-detail flex-col flex-gap-tiny">
 							<h2 class="cart__item-name heading-secondary">Annual Plan</h2>
 							<span class="cart__item-price text">$59.99/year</span>
 						</div>
@@ -60,7 +60,7 @@
 					<a class="cart__btn-edit" href="#">Change</a>
 				</section>
 			</main>
-			<footer class="card__footer">
+			<footer class="card__footer flex-col flex-gap-sm">
 				<button class="btn btn-blue">Proceed to Payment</button>
 				<button class="btn btn-clear">Cancel Order</button>
 			</footer>

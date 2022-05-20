@@ -1,0 +1,23 @@
+.flex-gap-lg {
+	gap: 8rem;
+}
+
+.flex-gap-md {
+	gap: 2rem !important;
+}
+.flex-gap-sm {
+	gap: 1.5rem !important;
+}
+
+.flex-gap-tiny {
+	gap: 0.5rem !important;
+}
+
+.flex-row {
+	display: flex !important;
+	flex-direction: row !important;
+}
+.flex-col {
+	display: flex !important;
+	flex-direction: column !important;
+}

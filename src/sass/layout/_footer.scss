@@ -1,7 +1,10 @@
-attribution {
-	font-size: 11px;
+.attribution {
+	position: absolute;
+	bottom: 0;
+
 	text-align: center;
-}
-.attribution a {
-	color: $color-violet;
+
+	& a {
+		color: $color-violet;
+	}
 }
